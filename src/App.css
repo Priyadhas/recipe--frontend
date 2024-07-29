@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+#image {
+  background-image: url('../public/imageRecipee.jpg');
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  width: 100%; 
+}
+#homeimage {
+  background-image: url('../public/homeimage.jpg');
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  width: 100%; 
+}
+
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+#image1 {
+  background-image: url('../public/image1.jpg');
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  background-size: contain;
+  width: 100vh;
+
+}
+#style1{
+  width: '400px';
+  background-color: 'rgba(255, 255, 255, 0.8)';
+  border-radius: '8px';
+  padding-top: '100px';
+  margin-top: '100px';
+  align-items: center;
+ padding-top: 20px;
+ padding-left: 20px;
+ margin-left: 300px;
+
+}
+.style{
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  margin-top: '300px';
+}
+#size1
+{
+  font-size: '100px';
+  color:white;
+  padding-top: '70px';
+  padding-left: '40px';
+}
+#move
+{
+height: '100px';
+width:'200px' ;
+padding-top: '50px';
+}
+#size
+{
+  color: aliceblue;
+  font-size: 70px;
+  padding-top: '40px';
+  padding-left: '50px';
+}
